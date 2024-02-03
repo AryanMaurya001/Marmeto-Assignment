@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marmeto Assignment</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="main-container">
+      <div class="product-container">
+        <div class="product-image">
+          <img src="" alt="Product Image" id="main-product-image">
+          <div class="thumbnails-container">
+            <div class="thumbnails">
+
+            </div>
+          </div>
+        </div>
+
+        <div class="product-details">
+          <div class="head">
+            <h1 class="product-vendor"></h1>
+            <h2 class="product-title"></h2>
+
+          </div>
+          <hr style="border: 0.5px solid #ccc;">
+
+          <div class="price-container">
+						<p class="price"></p>
+						<p class="percentage-off"></p>
+
+
+					</div>
+					<p class="compare-at-price"></p>
+          <hr style="border: 0.5px solid #ccc;">
+
+          <div class="color-container">
+            <h1 class="color-text">Choose a Color</h1>
+            <div class="c-container">
+
+            </div>
+          </div>
+
+          <div class="size-container">
+            <hr style="border: 0.5px solid #ccc;">
+
+            <h1 class="color-text">Choose the Size</h1>
+            <div class="size-selector">
+
+            </div>
+          </div>
+
+          <div class="quantity-add-container">
+            <div class="rectangle-parent4">
+							<b class="b1" onclick="decrementValue()">-</b>
+							<b class="b2" id="quantityValue">1</b>
+							<b class="b3" onclick="incrementValue()">+</b>
+						</div>
+            <button class="add-to-cart-btn" >Add to Cart</button>
+          </div>
+          <div class="product-details-added">
+            <p id="addedProductDetails"></p>
+          </div>
+
+
+          <div class="message-container">
+            
+            <p class="add-to-cart-message"></p>
+            <hr style="border: 0.5px solid #ccc;">
+
+          </div>
+
+          <div class="description">
+            <h3>Description</h3>
+            <p class="product-description"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
